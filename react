@@ -1,5 +1,2 @@
-# Create a new React app
-npx create-react-app shoppingList
-
-# Navigate into the project
-cd shoppingList
+npx create-react-app shopping-list-app
+cd shopping-list-app
