@@ -1,102 +1,70 @@
-🛒 Shopping List App — React Assignment
+# Getting Started with Create React App
 
-This project is a React-based Shopping List application built for an assignment.
-It demonstrates routing, state management, filtering, localStorage persistence, and component architecture.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-🚀 Features
-1. List Overview
+## Available Scripts
 
-Displays two sample lists:
+In the project directory, you can run:
 
-Groceries
+### `npm start`
 
-Hardware Store
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Each item links to a detail page (/lists/:id).
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-📄 List Detail Page
+### `npm test`
 
-Each shopping list supports:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-✅ Title Editing (Owner only)
+### `npm run build`
 
-Owner can rename the list.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Controlled input with draft state.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-✅ Items
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Add items
+### `npm run eject`
 
-Delete items
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Toggle completion
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Filter:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-All
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Resolved
+## Learn More
 
-Unresolved
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-✅ Members
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Shows owner + members
+### Code Splitting
 
-Owner can:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Add members
+### Analyzing the Bundle Size
 
-Remove members
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Non-owner users can Leave the list.
+### Making a Progressive Web App
 
-LocalStorage Persistence
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Each list is saved locally under a unique key:
+### Advanced Configuration
 
-shoppinglist_assign_v1_<LIST_ID>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-🧱 Tech Stack
+### Deployment
 
-React 19
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-react-router-dom v7
+### `npm run build` fails to minify
 
-LocalStorage for persistence
-
-Create React App (react-scripts 5)
-
-📁 Project Structure
-src/
-  App.js
-  index.js
-  routes/
-    Home.jsx
-    ShoppingListDetail.jsx
-  shared/
-    ItemRow.jsx
-    MemberList.jsx
-  index.css
-
-▶️ Running the App
-Install dependencies:
-npm install
-
-Start in development mode:
-npm start
-
-Build for production:
-npm run build
-
-📦 Deployment
-
-The project can be deployed to GitHub Pages, Netlify, or Vercel.
-
-Detailed instructions for GitHub Pages are included below.
-
-👤 Author
-
-Shopping List Assignment Project
-Created as part of academic coursework.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
